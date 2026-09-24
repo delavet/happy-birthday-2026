@@ -1,0 +1,20 @@
+{
+  "name": "happy-birthday-2026",
+  "version": "1.0.0",
+  "description": "秋月的地球online漫游 · 生日特别篇",
+  "scripts": {
+    "test": "node --test tests/story.test.mjs",
+    "start": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "build": "node scripts/build.mjs",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delavet/happy-birthday-2026.git"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  },
+  "private": true
+}

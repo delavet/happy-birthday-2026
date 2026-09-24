@@ -1,0 +1,236 @@
+{
+  "childhood": {
+    "idle": {
+      "source": "output/animation-studio/childhood/decoded/idle.png",
+      "decoded": "output/animation-studio/childhood/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/childhood/idle",
+      "prompt": "docs/animation-prompts/childhood-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-428ba927-a456-4826-b3ca-b513ce879052.png",
+      "decoded": "output/animation-studio/childhood/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/childhood/running-right",
+      "prompt": "docs/animation-prompts/childhood-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-63f104bf-cb47-433c-a7fa-0e82107afe28.png",
+      "decoded": "output/animation-studio/childhood/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/childhood/waving",
+      "prompt": "docs/animation-prompts/childhood-waving.md"
+    }
+  },
+  "school": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-d836-7350-adeb-da88ce9c2f0b/exec-bc35cba5-a569-4546-bc70-d24983cd949a.png",
+      "decoded": "output/animation-studio/school/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/school/idle",
+      "prompt": "docs/animation-prompts/school-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-d836-7350-adeb-da88ce9c2f0b/exec-36ea7575-1de4-48b6-b531-c59afdf9c560.png",
+      "decoded": "output/animation-studio/school/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/school/running-right",
+      "prompt": "docs/animation-prompts/school-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-d836-7350-adeb-da88ce9c2f0b/exec-df5f3da7-91ff-4d6d-be27-7bc6bb608a55.png",
+      "decoded": "output/animation-studio/school/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/school/waving",
+      "prompt": "docs/animation-prompts/school-waving.md"
+    }
+  },
+  "university": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-b5dba966-6a42-43d9-bc41-56b41f9c28e8.png",
+      "decoded": "output/animation-studio/university/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/university/idle",
+      "prompt": "docs/animation-prompts/university-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-6fc29ee1-3f4d-4337-8fe6-7637a3c0f6d1.png",
+      "decoded": "output/animation-studio/university/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/university/running-right",
+      "prompt": "docs/animation-prompts/university-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-4cba8b85-9aae-4b01-903d-ee19701bae03.png",
+      "decoded": "output/animation-studio/university/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/university/waving",
+      "prompt": "docs/animation-prompts/university-waving.md"
+    }
+  },
+  "beijing": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-d836-7350-adeb-da88ce9c2f0b/exec-755a2b17-f6f5-473a-a222-5a0492ed98b5.png",
+      "decoded": "output/animation-studio/beijing/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/beijing/idle",
+      "prompt": "docs/animation-prompts/beijing-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-d836-7350-adeb-da88ce9c2f0b/exec-74b9719e-1133-4f3c-9c41-13b08afd5f10.png",
+      "decoded": "output/animation-studio/beijing/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/beijing/running-right",
+      "prompt": "docs/animation-prompts/beijing-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d205-bff8-77a2-934c-68ec4e5f6c0e/exec-a2b28681-ac6c-4f65-a989-48a3fc8e2b2a.png",
+      "decoded": "output/animation-studio/beijing/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/beijing/waving",
+      "prompt": "docs/animation-prompts/beijing-waving.md"
+    }
+  },
+  "meeting": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-f7d7cb05-06aa-4000-b720-45e903610e0d.png",
+      "decoded": "output/animation-studio/meeting/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/meeting/idle",
+      "prompt": "docs/animation-prompts/meeting-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-1ece6815-6e10-49df-bb2d-e2e43b25a43b.png",
+      "decoded": "output/animation-studio/meeting/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/meeting/running-right",
+      "prompt": "docs/animation-prompts/meeting-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-61503922-5fb3-474f-9165-fa729f45cfb2.png",
+      "decoded": "output/animation-studio/meeting/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/meeting/waving",
+      "prompt": "docs/animation-prompts/meeting-waving.md"
+    }
+  },
+  "together": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d205-bff8-77a2-934c-68ec4e5f6c0e/exec-ee697c12-7396-4932-90b5-23a17060c0d5.png",
+      "decoded": "output/animation-studio/together/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/together/idle",
+      "prompt": "docs/animation-prompts/together-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d205-bff8-77a2-934c-68ec4e5f6c0e/exec-12d40fb9-58c1-45ad-a99f-3cad7594c7a1.png",
+      "decoded": "output/animation-studio/together/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/together/running-right",
+      "prompt": "docs/animation-prompts/together-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d205-bff8-77a2-934c-68ec4e5f6c0e/exec-4f284e3c-7b36-4948-9d8b-1db8de0ac246.png",
+      "decoded": "output/animation-studio/together/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/together/waving",
+      "prompt": "docs/animation-prompts/together-waving.md"
+    }
+  },
+  "chengdu": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-53bb2a95-f471-4a5a-8b26-9bc73f0cd0cd.png",
+      "decoded": "output/animation-studio/chengdu/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/chengdu/idle",
+      "prompt": "docs/animation-prompts/chengdu-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-37ab01f8-40ee-4905-9f9f-2c98940ee4d8.png",
+      "decoded": "output/animation-studio/chengdu/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/chengdu/running-right",
+      "prompt": "docs/animation-prompts/chengdu-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-23d5d358-e296-4cb3-9e37-5532c86d914b.png",
+      "decoded": "output/animation-studio/chengdu/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/chengdu/waving",
+      "prompt": "docs/animation-prompts/chengdu-waving.md"
+    }
+  },
+  "birthday": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-67ae-7a50-ae35-6e1a1e638ddf/exec-81009d68-609c-4c6f-ab17-90c6a87a4349.png",
+      "decoded": "output/animation-studio/birthday/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/birthday/idle",
+      "prompt": "docs/animation-prompts/birthday-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-67ae-7a50-ae35-6e1a1e638ddf/exec-569c4158-4c59-4944-bc50-bab44539cb81.png",
+      "decoded": "output/animation-studio/birthday/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/birthday/running-right",
+      "prompt": "docs/animation-prompts/birthday-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d1fd-67ae-7a50-ae35-6e1a1e638ddf/exec-40e280de-c610-4b78-ab30-a751a086c23d.png",
+      "decoded": "output/animation-studio/birthday/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/birthday/waving",
+      "prompt": "docs/animation-prompts/birthday-waving.md"
+    }
+  },
+  "yinhang": {
+    "idle": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d205-bff8-77a2-934c-68ec4e5f6c0e/exec-62b39d9c-e35e-45c7-b561-ed4f7596eb8e.png",
+      "decoded": "output/animation-studio/yinhang/decoded/idle.png",
+      "frames": 6,
+      "method": "auto",
+      "final": "assets/actors/yinhang/idle",
+      "prompt": "docs/animation-prompts/yinhang-idle.md"
+    },
+    "running-right": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d205-bff8-77a2-934c-68ec4e5f6c0e/exec-88d96ac9-e1c4-4616-943a-7a933f40ef9c.png",
+      "decoded": "output/animation-studio/yinhang/decoded/running-right.png",
+      "frames": 8,
+      "method": "auto",
+      "final": "assets/actors/yinhang/running-right",
+      "prompt": "docs/animation-prompts/yinhang-running-right.md"
+    },
+    "waving": {
+      "source": "/Users/yinhang/.codex/generated_images/01a0d219-09e5-78e1-afa4-27ca2f374742/exec-f70636eb-b281-4bbd-b523-2d761d52bfc4.png",
+      "decoded": "output/animation-studio/yinhang/decoded/waving.png",
+      "frames": 4,
+      "method": "auto",
+      "final": "assets/actors/yinhang/waving",
+      "prompt": "docs/animation-prompts/yinhang-waving.md"
+    }
+  }
+}
