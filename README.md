@@ -2,6 +2,8 @@
 
 送给张秋月的 31 岁生日礼物。电脑优先的像素风人生奇遇小游戏，目标体验约 5—7 分钟。由真实回忆出发，允许脑洞把人生带去不同方向，最后秋月和尹航在哈尔滨一起过生日。
 
+**在线游玩：[秋月的地球online漫游](https://delavet.github.io/happy-birthday-2026/)**。无需安装，无需保持本地服务运行，推荐使用电脑浏览器。
+
 ## 本地试玩
 
 ```sh
@@ -61,12 +63,18 @@ npm run test:e2e
 
 浏览器测试使用本机 Google Chrome（1440×900）和 Playwright WebKit（1280×720），从首页点击至生日信，覆盖三种路线、路线标识与专属节点、完成与跳过互动、纪念物回收、重新开始、音乐和回忆口袋。检查背景铺满、对话框与选项位于视口内、人物资源加载、键盘操作，并保留一项手机触摸冒烟测试。测试使用 `/output/site/` 子路径，验证 GitHub Pages 所需的相对资源路径。截图时启用减少动态效果。
 
-这不替代真实手机与上线网址的试玩。
+上线后的同一套浏览器检查直接访问公开网址，不启动本地服务器：
+
+```sh
+PLAYWRIGHT_BASE_URL=https://delavet.github.io/happy-birthday-2026/ npm run test:e2e
+```
+
+浏览器模拟手机尺寸不替代实体手机试玩。验证记录见 [docs/verification.md](docs/verification.md)。
 
 ## GitHub Pages
 
 `npm run build` 生成 `output/site/`，只包含 HTML、游戏源文件和网页资源。每种角色形态只发布 `spritesheet.png` 和对话头像 `idle/00.png`，背景只发布 WebP；其余独立角色帧、设计参考 PNG、背景 PNG 和生成过程文件不进入发布包。配置位于 `.github/workflows/pages.yml`，与仓库当前默认分支 `master` 对齐。
 
-发布前，在仓库 Settings → Pages 中选择 GitHub Actions 作为 Source。更新进入 `master` 后，工作流运行剧情检查、打包静态站点并部署。配置采用 [GitHub 官方 Pages 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) 的 artifact 发布方式。
+仓库 Pages 已配置为 GitHub Actions 发布，并开启 HTTPS。更新进入 `master` 后，工作流运行剧情检查、打包静态站点并部署。配置采用 [GitHub 官方 Pages 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) 的 artifact 发布方式。
 
-预期地址：`https://delavet.github.io/happy-birthday-2026/`。这是计划地址；只有实际部署、回读并通关后才能标记已上线。
+正式地址：[https://delavet.github.io/happy-birthday-2026/](https://delavet.github.io/happy-birthday-2026/)。部署状态见 [GitHub Actions](https://github.com/delavet/happy-birthday-2026/actions/workflows/pages.yml)。
